@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: blue;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.RED, .red {
+  background-color: red;
+}
+
+.GREEN, .green {
+  background-color: green;
+}
+.WHITE {
+  background-color: gray;
+}
+
+#overskrift {
+  border: solid green 2px;
+} 
+
+#klokke {
+  text-align:left;
+}

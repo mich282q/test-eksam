@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Create lightbulb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <form>
+                <input type="button" value="Go back!" onclick="history.back()">
+              </form>
+    <h1>Create lightbulb</h1>
+    <form action="smartbulb/json" method="post">
+        <label>Color</label> <input type="text" placeholder="yellow" name="color"><br />
+        <label>Light intensity %</label> <input type="number" max="100" min="0" placeholder="50" name="lightIntensity"><br />
+        <label>on</label> <input type="text" placeholder="true or false" name="on"><br />
+        <label>powerUsageActual</label> <input type="numer" placeholder="true or false" name="powerUsageActual"><br />
+        <label>powerUsageNominal</label> <input type="number" placeholder="10.2" name="powerUsageNominal"><br />
+        <label>hardwareType</label> <input type="numer" placeholder="12" name="hardwareType"><br />
+        <label>softwareVersion</label> <input type="number" placeholder="0.0.1" name="softwareVersion"><br />
+        <button type="submit">Create smartbulb</button>
+    </form>
+</body>
+</html>
