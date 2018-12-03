@@ -1,4 +1,4 @@
-body {
+html, body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: blue;
@@ -27,3 +27,23 @@ a {
 #klokke {
   text-align:left;
 }
+
+ h1{
+  background-color: red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: solid;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
