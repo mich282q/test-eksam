@@ -6,29 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ikea Trådfri Smartpærer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 
-    <style>
-    table {
-  font-family: arial, sans-serif;
-  border-collapse: solid;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: center;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 </head>
 
 <body>
+        <nav>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="active" href="./">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="smartbulb/json">Json</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="createSmartbulb.html">Oprettet pærer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="smartbulbs.html">Dummy data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="smartbulb">Pærer fra db</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         <form>
                 <input type="button" value="Go back!" onclick="history.back()">
               </form>

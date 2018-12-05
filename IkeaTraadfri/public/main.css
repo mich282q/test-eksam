@@ -1,0 +1,51 @@
+ h1{
+  background-color: red;
+  text-align: center;
+  border-radius: 12px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: solid;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  form{
+    border-radius: 5px;
+    border:solid;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+  }

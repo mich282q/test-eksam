@@ -19,17 +19,27 @@ a {
 .WHITE {
   background-color: gray;
 }
+.BLUE, .blue{
+  background-color: blue;
+}
 
 #overskrift {
   border: solid green 2px;
 } 
 
 #klokke {
-  text-align:left;
+  text-align:center;
 }
 
  h1{
   background-color: red;
+  text-align: center;
+  border-radius: 12px;
+}
+h2{
+  background-color: blue;
+  text-align: center;
+  border-radius: 12px;
 }
 table {
   font-family: arial, sans-serif;
@@ -41,9 +51,46 @@ td, th {
   border: 1px solid #dddddd;
   padding: 8px;
   text-align: center;
+  border-radius: 12px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+  
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+  border: solid;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.nav-item{
+border: solid;
+}
