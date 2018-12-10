@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
+mongo = require('mongodb');
 
 
 /* Viser pærerne som JSON */
@@ -59,5 +60,21 @@ router.post('/json', function (req, res, next) {
     res.redirect("/smartbulb/json");
   });
 });  
+
+router.post('/delete/:id', function (req, res) {
+  MongoClient.connect(url, function (err, db) {
+    if (err) throw err;
+    var dbo = db.db("IKEA-Traadfri");
+  var id = req.params.id;
+  dbo.collection("SmartBulbs").deleteOne({ _id: new mongo.ObjectId(id) }, function (err, results) {
+    if (err) throw err;
+    console.log("1 document inserted");
+    db.close();
+  });
+
+  //res.json({ success: id })
+  res.redirect("/smartbulb");
+});
+});
 
 module.exports = router;

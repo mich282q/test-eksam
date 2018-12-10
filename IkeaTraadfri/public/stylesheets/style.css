@@ -22,6 +22,19 @@ a {
 .BLUE, .blue{
   background-color: blue;
 }
+.PINK, .pink {
+  background-color: pink;
+}
+
+.YELLOW, .yellow {
+  background-color: yellow;
+}
+.PURPLE, .purple {
+  background-color: purple;
+}
+.TEAL, .teal{
+  background-color: teal;
+}
 
 #overskrift {
   border: solid green 2px;
