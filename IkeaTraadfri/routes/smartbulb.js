@@ -58,7 +58,6 @@ router.post('/json', function (req, res, next) {
     });
     res.redirect("/smartbulb/json");
   });
-});
-
+});  
 
 module.exports = router;
